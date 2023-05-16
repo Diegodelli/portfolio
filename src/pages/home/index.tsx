@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portfolio`;
 
   return (
     <main id="home">
@@ -58,8 +58,16 @@ export const Home = (): JSX.Element => {
               projetos
             </Text>
             <Text type="body1" color="grey2">
-              Conheça aqui neste ambiente, criado especialmente para você, todos
-              os meus projetos e tecnologias
+              Conheça aqui neste ambiente, criado especialmente para você,
+              alguns dos meus projetos e as tecnologias que possuo domínio.
+            </Text>
+            <Text type="body1" color="grey2">
+              Sou um programador que tem familiaridade com boas práticas de
+              desenvolvimento, possuo experiência na utilização de metodologia
+              ágil, experiência com desenvolvimento de diferentes planos de
+              negócio, familiaridade com documentação de diferentes tecnologias
+              e ferramentas, noções de UX, programação orientada a objetos,
+              programação funcional, componentização e uso de bibliotecas.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
