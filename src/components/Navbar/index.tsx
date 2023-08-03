@@ -1,8 +1,6 @@
 import { useState } from "react";
 import useMedia from "use-media";
 import { userData } from "@/utils/userData";
-import logo_yellow from "../../public/static/img/logo/logo_yellow.jpg";
-
 import {
   Navbar as NavbarWrapper,
   LogoTipo,
@@ -37,7 +35,6 @@ export const NavBar = (): JSX.Element => {
       <Container>
         <NavbarMobileArea>
           <LogoTipo>
-            <img src={logo_yellow} alt="Logotipo" />
             <LogoTipoText>{userData.nameUser}</LogoTipoText>
           </LogoTipo>
           {isWide && (

@@ -19,12 +19,6 @@ export const Navbar = styled("nav", {
     "@mobile": {
       flexDirection: "column",
     },
-    img: {
-      with: "30px",
-      height: "50px",
-      borderRadius: "8px",
-      paddingRight: "4px",
-    },
   },
 });
 
