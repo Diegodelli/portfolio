@@ -44,7 +44,6 @@ export const Project = (): JSX.Element => {
             <Text type="body2" color="grey2">
               Primary Language:
             </Text>
-            project.language ? (
             <ProjectStackTech>
               <Text color="grey2" type="body2">
                 {project.language}
