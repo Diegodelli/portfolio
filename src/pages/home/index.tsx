@@ -49,13 +49,13 @@ export const Home = (): JSX.Element => {
             <Text as="h1" type="heading1" color="grey5">
               Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                adoro
+                amo
               </Text>{" "}
               criar e{" "}
               <Text as="span" type="heading1" color="brand1">
                 desenvolver
               </Text>{" "}
-              projetos
+              projetos!
             </Text>
             <Text type="body1" color="grey2">
               Conheça aqui neste ambiente, criado especialmente para você,

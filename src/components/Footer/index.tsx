@@ -40,7 +40,7 @@ export const Footer = (): JSX.Element => {
             type="circle"
             as="a"
             target="_blank"
-            href={`https://instagram.com/${userData.instagramUser}`}
+            href={`https://instagram.com/${""}`}
           >
             <FaInstagram />
           </Button>
@@ -49,7 +49,7 @@ export const Footer = (): JSX.Element => {
             type="circle"
             as="a"
             target="_blank"
-            href={`https://fb.com/${userData.facebookUser}`}
+            href={`https://fb.com/${""}`}
           >
             <FaFacebookF />
           </Button>
