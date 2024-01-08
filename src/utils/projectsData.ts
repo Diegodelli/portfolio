@@ -6,7 +6,7 @@ export const projectsData = [
     description: "Um site para anúncio e de veículos.",
     repository_url:
       "https://github.com/grupo19-t14-paulo/grupo19-t14-paulo-Projeto-Full-Stack",
-    homepage_url: "",
+    homepage_url: "https://motors-shop-g19.vercel.app/",
   },
   {
     id: 2,
