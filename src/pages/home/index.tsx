@@ -57,17 +57,31 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
               projetos!
             </Text>
+
+            <Text type="body1" color="grey2">
+              Como profissional, destaco-me pela minha capacidade de colaboração
+              e disposição para compartilhar conhecimentos. Acredito que o
+              sucesso é alcançado coletivamente, e minha abordagem centrada na
+              equipe contribui para um ambiente de trabalho positivo e
+              produtivo.
+            </Text>
+            <Text type="body1" color="grey2">
+              Minha experiência comercial de uma década proporcionou-me uma
+              compreensão profunda das necessidades dos clientes e a capacidade
+              de desenvolver relacionamentos sólidos. Ao migrar para a área de
+              tecnologia, combinei essa expertise com uma paixão pela inovação e
+              resolução de problemas.
+            </Text>
+            <Text type="body1" color="grey2">
+              Contratar-me significa trazer para a equipe um profissional
+              determinado, adaptável e comprometido em impulsionar o sucesso da
+              sua organização. Estou entusiasmado para aplicar minha bagagem de
+              habilidades e experiência, contribuindo para o crescimento e a
+              excelência da organização.
+            </Text>
             <Text type="body1" color="grey2">
               Conheça aqui neste ambiente, criado especialmente para você,
               alguns dos meus projetos e as tecnologias que possuo domínio.
-            </Text>
-            <Text type="body1" color="grey2">
-              Sou um programador que tem familiaridade com boas práticas de
-              desenvolvimento, possuo experiência na utilização de metodologia
-              ágil, experiência com desenvolvimento de diferentes planos de
-              negócio, familiaridade com documentação de diferentes tecnologias
-              e ferramentas, noções de UX, programação orientada a objetos,
-              programação funcional, componentização e uso de bibliotecas.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
