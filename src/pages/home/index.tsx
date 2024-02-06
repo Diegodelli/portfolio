@@ -57,7 +57,13 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
               projetos!
             </Text>
-
+            <Text type="body1" color="grey2">
+              Com mais de uma década de experiência no ramo comercial, adquiri
+              habilidades sólidas em comunicação, negociação e trabalho em
+              equipe. Minha transição para a área de tecnologia em 2021
+              demonstra minha determinação em buscar novos desafios e me adaptar
+              a ambientes dinâmicos.
+            </Text>
             <Text type="body1" color="grey2">
               Como profissional, destaco-me pela minha capacidade de colaboração
               e disposição para compartilhar conhecimentos. Acredito que o
