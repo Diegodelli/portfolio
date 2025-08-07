@@ -40,7 +40,7 @@ export const Footer = (): JSX.Element => {
             type="circle"
             as="a"
             target="_blank"
-            href={`https://instagram.com/criativa.zona/`}
+            href={`https://instagram.com/ddcr.89/`}
           >
             <FaInstagram />
           </Button>
