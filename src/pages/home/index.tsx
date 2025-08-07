@@ -29,6 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
+  const gihubUrl2 = `https://github.com/${userData.githubUser2}`;
   const portfolioUrl = `https://github.com/${userData.githubUser}/portfolio`;
 
   return (
@@ -103,6 +104,16 @@ export const Home = (): JSX.Element => {
                 type="circle"
                 target="_blank"
                 href={gihubUrl}
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                color="grey5"
+                as="a"
+                css={{ "&:hover": { color: "$grey1" } }}
+                type="circle"
+                target="_blank"
+                href={gihubUrl2}
               >
                 <FaGithub />
               </Button>
